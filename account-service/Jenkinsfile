@@ -1,7 +1,8 @@
  using hostname.
 
 [code language="java"]
-node {
+pipeline {
+ agent { dockerfile true }
 
     withMaven(maven:'maven') {
 
