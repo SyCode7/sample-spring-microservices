@@ -5,7 +5,7 @@ pipeline {
     withMaven(maven:'maven') {
 
         stage('Checkout') {
-            git url: 'https://github.com/piomin/sample-spring-microservices.git', credentialsId: 'github-piomin', branch: 'master'
+            git url: 'https://github.com/SyCode7/sample-spring-microservices.git', credentialsId: 'SyCode7-@secure&sons7', branch: 'master'
         }
 
         stage('Build') {
